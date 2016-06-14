@@ -42,6 +42,7 @@ $(function(){
     newTicket.findPrice();
 
     $("#price").text("$" + price.toFixed(2));
+    $("#show-price").show(price);
 
   });
 });
